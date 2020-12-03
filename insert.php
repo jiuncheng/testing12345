@@ -12,6 +12,8 @@ if (!$conn) {
 $sql = "INSERT INTO restaurant (restaurant_name, restaurant_address, restaurant_phone) VALUES (?, ?, ?);";
 $params = array("7 eleven", "Bukit Jalil", "03-82727626");
 
+$results = sqlsrv_query($sql);
+
 if ($results == FALSE) {
     die(print_r(sqlsrv_errors(), true));
 }
