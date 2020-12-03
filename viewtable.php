@@ -19,6 +19,12 @@
           <th>Menara Standard Chartered, TPM</th>
           <th>03-22441234</th>
         </tr>
+        <tr>
+          <th>1</th>
+          <th>Food Restaurant</th>
+          <th>Menara Standard Chartered, TPM</th>
+          <th>03-67331234</th>
+        </tr>
       </table>
     </center>
   </body>
