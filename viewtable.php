@@ -29,7 +29,7 @@
             </tr>
 
             <?php
-            $connectionInfo = array("UID" => "simplewebadmin", "pwd" => "{your_password_here}", "Database" => "simpleweb", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
+            $connectionInfo = array("UID" => "simplewebadmin", "pwd" => "Admin123", "Database" => "simpleweb", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
             $serverName = "tcp:simplewebtp046253.database.windows.net,1433";
             $conn = sqlsrv_connect($serverName, $connectionInfo);
 
